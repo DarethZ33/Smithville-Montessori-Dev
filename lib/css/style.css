@@ -496,7 +496,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center
 }
 
-@media (max-width:1224px) {
+@media (min-width:1025px) and (max-width:1224px) {
 	#welcome-social {
 	width:40%;
 	height:20%;
@@ -505,18 +505,54 @@ body.mobile-nav-active #mobile-nav-toggle {
 	color:#03c5ec;
 	padding:4px;
 	}
-	#social {
-	width:60%;
+	#social{
+	width:50%;
 	height:10%;
-	margin-right:20%;
-	margin-top: 10px;
+	margin-right:35%;
+	margin-top: 35px;
 	}
 	#social i {
 	padding-right: 4px;
 	}
+	
 }
 
-@media (max-width:1024px) {
+@media (min-width:770px) and (max-width:1024px) {
+	#header #logo h4 {
+    font-size: 22px;
+    margin-left: 65%;
+    padding: 2px 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 3px;
+	width: 100%;
+}
+	#welcome-social {
+	width:50%;
+	height:20%;
+	}
+	#welcome-social i {
+	color:#03c5ec;
+	padding:4px;
+	}
+	#mobile-nav-toggle {
+        display: inline
+    }
+	#social {
+	width:50%;
+	height:10%;
+	margin-right:8%;
+	margin-top: 35px;
+	}
+	#social i {
+	padding-right: 4px;
+	}
+	#nav-menu-container {
+        display: none
+    }
+	
+}
+@media (min-width:769px) and (max-width:991px) {
 	#header #logo h4 {
     font-size: 22px;
     margin-left: 30%;
@@ -534,6 +570,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 	color:#03c5ec;
 	padding:4px;
 	}
+	#mobile-nav-toggle {
+        display: inline
+    }
 	#social {
 	display:table;
 	width:50%;
@@ -549,25 +588,105 @@ body.mobile-nav-active #mobile-nav-toggle {
     }
 }
 	
-@media (max-width:768px) {
+@media (min-width:569px) and (max-width:768px) {
     .back-to-top {
         bottom: 15px
     }
     #welcome h1 {
-        font-size: 28px;
-        line-height: 36px
+        font-size: 26px;
+        line-height: 32px
     }
     #welcome h2 {
-        font-size: 24px;
-        line-height: 26px;
+        font-size: 20px;
+        line-height: 20px;
         margin-bottom: 30px
+    }
+	#welcome .welcome-logo img {
+    max-width: 35%
+	}
+    #welcome h2 .rotating {
+        display: block;
+    }
+	#welcome i {
+		font-size: 50px;
+	}
+	#mobile-nav-toggle {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    margin: 20px 20px 0 0;
+    border: 0;
+    background: 0 0;
+    font-size: 24px;
+    display: inline;
+    transition: all .4s;
+    outline: 0
+}
+    #header {
+        height: 80px
+    }
+	#header #logo h4 {
+    font-size: 15px;
+    margin-left: 7%;
+    padding: 2px 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 3px;
+	width: 100%;
+	}
+    #header #logo h1 {
+        font-size: 20px
+    }
+    #header #logo img {
+        max-height: 40px
+    }
+    #nav-menu-container {
+        display: none
+    }
+	#social {
+	width:50%;
+	height:10%;
+	margin-right:20%;
+	margin-top: 10px;
+	}
+	#social i {
+	padding-right: 4px;
+	font-size: 25px;
+	}
+}
+@media (min-width:320px) and (max-width:568px) {
+	.back-to-top {
+        bottom: 15px
+    }
+	#welcome .welcome-logo img {
+    max-width: 40%
+	}
+    #welcome h1 {
+        font-size: 12px;
+        line-height: 20px
+    }
+    #welcome h2 {
+        font-size: 10px;
+        line-height: 14px;
+        margin-bottom: 15px;
+		color: #FFF;
     }
     #welcome h2 .rotating {
         display: block
     }
+	#welcome-social {
+		display:inline;
+	}
+	#welcome i {
+		font-size: 30px;
+	}
     #mobile-nav-toggle {
         display: inline
     }
+	#mobile-nav-toggle i {
+		font-size: 25px;
+	}
     #header {
         height: 80px
     }
@@ -589,8 +708,4 @@ body.mobile-nav-active #mobile-nav-toggle {
 	#social i {
 	padding-right: 4px;
 	}
-}
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-/* Styles */
 }

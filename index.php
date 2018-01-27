@@ -17,7 +17,7 @@
 <meta content="img/SMA-Site-Icon-2.png" name=twitter:image>
 <meta content=summary_large_image name=twitter:card>
 <meta content="Smithville Montessori Academy Logo" name=twitter:image:alt>
-<link href= rel="shortcut icon">
+<link rel="icon" type="image/ico" href="favicon.ico">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel=stylesheet>
 <script src="lib/jquery/jquery.min.js"></script>
 <script src="lib/jquery/jquery-ui.min.js"></script>
@@ -56,19 +56,10 @@
                 <li class=menu-active><a href="#welcome">Home</a></li>
                 <li class=menu-has-children><a href="#aboutus">About Us</a>
 					<ul>
-                        <li><a href="#boardinfo">Our Story</a></li>
-                        <li><a href="#" target=_blank>What is Montessori?</a></li>
                         <li><a href="#" target=_blank>Careers</a></li>
                     </ul>
 				</li>
-                <li class=menu-has-children><a href="#schools">Our Programs</a>
-					<ul>
-						<li><a href="#">Infant & Toddler</a></li>
-						<li><a href="#">Pre-Primary</a></li>
-						<li><a href="#">Primary</a></li>
-						<li><a href="#">Before & After School</a></li>
-					</ul>
-				</li>
+                <li><a href="#programs">Our Programs</a></li>
 				<li><a href="#">Enrollment Information</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
