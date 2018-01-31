@@ -654,6 +654,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 	padding-right: 4px;
 	font-size: 25px;
 	}
+	#programs .card {
+	width: 117%;
+	text-align: center;
+	}
 }
 @media (min-width:470px) and (max-width:568px) {
 	.back-to-top {
@@ -716,6 +720,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 	#aboutus .card {
 	width:90%;
 	height:90%;
+	}
+	#programs .card {
+	width: 98%;
+	text-align: center;
 	}
 }
 @media (min-width:320px) and (max-width:469px) {
@@ -783,5 +791,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 	#aboutus .card {
 	width:90%;
 	height:90%;
+	}
+	#programs .card {
+	width: 95%;
+	margin-bottom: 5%;
+	text-align: center;
 	}
 }
