@@ -1,32 +1,22 @@
-body {
-    background: #fff;
-    overflow-x: hidden;
-    color: #666;
-    font-family: "Open Sans", sans-serif;
-}
-body.mobile-nav-active {
-    overflow: hidden;
-}
-
-body.mobile-nav-active #mobile-nav {
-    left: 0;
-}
-
-body.mobile-nav-active #mobile-nav-toggle {
-    color: #fff;
-}
-
 #header #logo,
 .nav-menu>li {
-    float: left;
+    float: left
 }
 
 #header #logo h1,
 #welcome .actions a,
 #welcome h1,
 .section-title {
-    text-transform: uppercase;
+    text-transform: uppercase
 }
+
+body {
+    background: #fff;
+    overflow-x: hidden;
+    color: #666;
+    font-family: "Open Sans", sans-serif
+}
+
 #header #logo h1,
 #welcome .actions a,
 h1,
@@ -35,23 +25,23 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Raleway, sans-serif;
+    font-family: Raleway, sans-serif
 }
 
 a {
     color: #03C4EB;
-    transition: .5s;
+    transition: .5s
 }
 
 a:active,
 a:focus,
 a:hover {
-    color: #03c5ec;
+    color: #03c5ec
 }
 
 p {
     padding: 0;
-    margin: 0 0 30px;
+    margin: 0 0 30px
 }
 
 h1,
@@ -62,7 +52,7 @@ h5,
 h6 {
     font-weight: 400;
     margin: 0 0 20px;
-    padding: 0;
+    padding: 0
 }
 
 #preloader {
@@ -73,13 +63,13 @@ h6 {
     width: 100%;
     height: 100%;
     overflow: visible;
-    background: url(../../img/preloader.svg) center center no-repeat #fff;
+    background: url(../../img/preloader.svg) center center no-repeat #fff
 }
 
 .back-to-top,
 .back-to-top:focus {
     background: rgba(0, 0, 0, .2);
-    color: #fff;
+    color: #fff
 }
 
 .back-to-top {
@@ -90,19 +80,19 @@ h6 {
     border-radius: 2px;
     right: 15px;
     bottom: 15px;
-    transition: background .5s;
+    transition: background .5s
 }
 
 .back-to-top:focus {
-    outline: 0;
+    outline: 0
 }
 
 .back-to-top:hover {
     background: #03C4EB;
-    color: #fff;
+    color: #fff
 }
 img.icon {
-    height: 2em;
+    height: 2em
 }
 
 #welcome {
@@ -205,7 +195,7 @@ filter: brightness(115%);
 }
 
 .is-sticky #header {
-    background: #343a40;
+    background: rgba(0, 0, 0, .85)
 }
 
 #nav-menu-container {
@@ -386,6 +376,18 @@ a:hover {
     display: none
 }
 
+body.mobile-nav-active {
+    overflow: hidden
+}
+
+body.mobile-nav-active #mobile-nav {
+    left: 0
+}
+
+body.mobile-nav-active #mobile-nav-toggle {
+    color: #fff
+}
+
 .section-divider {
     width: 80%;
     height: 3px;
@@ -464,10 +466,6 @@ a:hover {
 	width: 300px;
 	padding-right: 5px;
 }
-#programs button {
-	margin-bottom: 2%;
-	margin-right: 2%;
-}
 #contact {
 	 background: rgba(255, 255, 255, .8);
 }
@@ -493,304 +491,14 @@ a:hover {
 .section-title {
     text-align: center
 }
-@media (min-width:1025px) and (max-width:1920px) {
-	#welcome img {
-		width:23%;
-	}
-	#welcome h1 {
-		font-size:48px;
-		margin: 30px 0 10px;
-		font-weight: 700;
-		line-height: 48px;
-		color: #fff
-	}
-	#welcome h2 {
-		font-size:35px;
-		color:#FFF;
-	}
-	#welcome i {
-		font-size:65px;
-		padding-right:20%;
-	}
-	#social {
-    width: 20%;
-    height: 20%;
-    margin-right: 55%;
-    margin-top: 5px;
-	}
-	#social i {
-	padding-right: 4px;
-	font-size:42px;
-	}
+.back-to-top {
+bottom: 15px
 }
+@media screen and (max-resolution: 4dppx) {
+	/*LG G3, G4 & G5*/
+	/*Samsung Galaxy S6, S7, S7 Edge, S8, S8+*/
+	/*Samsung Galaxy Note 8, Note 4*/
 
-@media (min-width:770px) and (max-width:1024px) {
-	#header #logo h4 {
-    font-size: 30px;
-    margin-left: 40%;
-    padding: 2px 0;
-    line-height: 1;
-    font-weight: 700;
-    letter-spacing: 3px;
-	width: 100%;
-}
-	#welcome-social i {
-	color:#03c5ec;
-	padding:4px;
-	}
-	#mobile-nav-toggle {
-        display: inline;
-		margin-right:10%;
-    }
-	#social {
-	width:50%;
-	height:10%;
-	margin-right:8%;
-	margin-top: 35px;
-	}
-	#social i {
-	padding-right: 4px;
-	font-size:40px;
-	}
-	#nav-menu-container {
-        display: none
-    }
-	#aboutus .card {
-	width: 26rem;
-	text-align: center;
-}
-	#programs .card {
-	width: 18rem;
-	text-align: center;
-}
-	
-}
-@media (width:768px) {
-	#social {
-	display:table;
-	width:50%;
-	height:10%;
-	margin-right:10%;
-	margin-top: 15px;
-	}
-}
-@media (min-width:769px) and (max-width:991px) {
-	#header #logo h4 {
-    font-size: 22px;
-    margin-left: 30%;
-    padding: 2px 0;
-    line-height: 1;
-    font-weight: 700;
-    letter-spacing: 3px;
-	width: 100%;
-}
-	#welcome-social i {
-	color:#03c5ec;
-	padding:4px;
-	}
-	#mobile-nav-toggle {
-    display: inline
-    }
-	#social {
-	display:table;
-	width:50%;
-	height:10%;
-	margin-right:10%;
-	margin-top: 15px;
-	}
-	#social i {
-	padding-right: 4px;
-	}
-	#nav-menu-container {
-    display: none
-    }
-}
-@media (min-width:680px) and (max-width:768px) {
-	#social i {
-	padding-right: 4px;
-	font-size: 32px;
-	}
-}
-@media (min-width:569px) and (max-width:679px) {
-	#social i {
-	padding-right: 4px;
-	font-size: 30px;
-	}
-}
-@media (min-width:569px) and (max-width:768px) {
-    .back-to-top {
-        bottom: 15px
-    }
-    #welcome h1 {
-        font-size: 26px;
-        line-height: 32px
-    }
-    #welcome h2 {
-        font-size: 20px;
-        line-height: 20px;
-        margin-bottom: 30px
-    }
-	#welcome .welcome-logo img {
-    max-width: 35%
-	}
-    #welcome h2 .rotating {
-        display: block;
-    }
-	#welcome i {
-		font-size: 50px;
-	}
-	#mobile-nav-toggle {
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 999;
-    margin: 20px 20px 0 0;
-    border: 0;
-    background: 0 0;
-    font-size: 24px;
-    display: inline;
-    transition: all .4s;
-    outline: 0
-}
-    #header {
-        height: 80px
-    }
-	#header #logo h4 {
-    font-size: 24px;
-    margin-left: 10%;
-    padding: 2px 0;
-    line-height: 1;
-    font-weight: 700;
-    letter-spacing: 3px;
-	width: 100%;
-	}
-    #header #logo h1 {
-        font-size: 20px
-    }
-    #header #logo img {
-        max-height: 40px
-    }
-    #nav-menu-container {
-        display: none
-    }
-	#aboutus .card {
-	width: 20rem;
-	text-align: center;
-	}
-	#programs .card {
-    width: 14rem;
-    text-align: center;
-	}
-}
-@media (min-width:546px) and (max-width:567px) {
-	#social {
-		width:46%;
-		margin-right:23%;
-		margin-top: 10px;
-	}
-}
-@media (min-width:470px) and (max-width:545px) {
-	#social {
-		width:48%;
-		margin-right:20%;
-		margin-top: 10px;
-	}
-}
-@media (min-width:470px) and (max-width:568px) {
-	.back-to-top {
-        bottom: 15px
-    }
-	#welcome .welcome-logo img {
-		max-width: 65%
-	}
-    #welcome h1 {
-        font-size: 22px;
-        line-height: 28px
-    }
-    #welcome h2 {
-        font-size: 19px;
-        line-height: 22px;
-        margin-bottom: 15px;
-		color: #FFF;
-    }
-    #welcome h2 .rotating {
-        display: block
-    }
-	#welcome i {
-		font-size: 50px;
-	}
-    #mobile-nav-toggle {
-        display: inline
-    }
-	#mobile-nav-toggle i {
-		font-size: 25px;
-	}
-    #header {
-        height: 80px
-    }
-    #header #logo h1 {
-        font-size: 26px
-    }
-    #header #logo img {
-        max-height: 40px
-    }
-	#header #logo h4 {
-		font-size: 24px;
-		margin-left: 18%;
-		padding: 2px 0;
-		line-height: 1;
-		font-weight: 700;
-		letter-spacing: 0px;
-		width: 100%;
-	}
-    #nav-menu-container {
-        display: none
-    }
-	#social i {
-		padding-right: 4px;
-	}
-	#aboutus i {
-		font-size:24px;
-		margin:2px;
-		line-height:30px;
-	}
-	#aboutus .card {
-		width:90%;
-		height:90%;
-	}
-	#programs .card {
-		width: 98%;
-		text-align: center;
-	}
-}
-@media (min-width:375px) and (max-width:415px) {
-	/*iPhone menu button fix*/
-	#mobile-nav-toggle {
-        display: inline;
-		margin-top:3%
-    }
-	#mobile-nav-toggle i {
-		font-size: 28px;
-	}
-	#aboutus i {
-		font-size:24px;
-		margin:5px;
-		line-height:25px;
-	}
-}
-@media (min-width:320px) and (max-width:374px) {
-    #mobile-nav-toggle {
-        display: inline;
-		margin-top:11%
-    }
-	#mobile-nav-toggle i {
-		font-size: 25px;
-	}
-}
-@media (min-width:320px) and (max-width:469px) {
-	.back-to-top {
-        bottom: 15px
-    }
 	#welcome .welcome-logo img {
 		max-width: 65%
 	}
@@ -807,6 +515,9 @@ a:hover {
     #welcome h2 .rotating {
         display: block
     }
+	#welcome-social {
+		display:inline;
+	}
 	#welcome i {
 		font-size: 45px;
 	}
@@ -858,4 +569,112 @@ a:hover {
 	#programs img {
 		display:none;
 	}
+}
+@media screen and (max-resolution: 3dppx) {
+	/*iPhone X, 6+, 6s+, 7+, and 8+*/
+	/*HTC One, HTC 8x*/
+	/*LG Nexus 5*/
+	/*Samsung Galaxy s4 & s5*/
+	#mobile-nav-toggle {
+		position: fixed;
+		right: 0;
+		top: 0;
+		z-index: 999;
+		margin: 20px 20px 0 0;
+		border: 0;
+		background: 0 0;
+		font-size: 24px;
+		display: inline;
+		transition: all .4s;
+		outline: 0
+	}
+	#mobile-nav-toggle i {
+		font-size: 28px;
+	}
+	#aboutus i {
+		font-size:24px;
+		margin:5px;
+		line-height:25px;
+	}
+}
+@media screen and (max-resolution: 2dppx) {
+	/*iPhone 4, 5, 6, 6s, 7, 8*/
+	/*Nexus 4*/
+	/*LG Optimus G*/
+	/*Samsung Galaxy s3, Galaxy Nexus, Note 2, and Note*/
+	/*Apple iPad Pro, iPad Pro 9.7, iPad 3, 4, Air, Air2*/
+	/*Samsung Nexus 10*/
+	#mobile-nav-toggle {
+		position: fixed;
+		right: 0;
+		top: 0;
+		z-index: 999;
+		margin: 20px 20px 0 0;
+		border: 0;
+		background: 0 0;
+		font-size: 24px;
+		display: inline;
+		transition: all .4s;
+		outline: 0
+	}	
+	#mobile-nav-toggle i {
+		font-size: 32px;
+		margin-top: 6%;
+	}
+	#header #logo h4 {
+    font-size: 18px;
+    margin-left: 0%;
+    padding: 4px 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0px;
+    width: 100%;
+	}
+	#header #social {
+    width: 70%;
+    height: 12%;
+    margin-right: 12px;
+    margin-top: 6px;
+	}
+	#aboutus i {
+		font-size:24px;
+		margin:5px;
+		line-height:25px;
+	}
+}
+@media screen and (max-resolution: 1.7dppx) {
+	#mobile-nav-toggle {
+        display: none;
+    }
+}
+@media screen and (max-resolution: 1.5dppx) {
+	/*Samsung Galaxy S4 Mini, S3 Mini, S2, and S*/
+	/*HTC Evo 3D*/
+	/*Amazon Kindle Fire HD 8.9, Kindle Fire HD 7*/
+	/*Microsoft Surface Pro, Pro 2, Pro 3*/
+	/*Google Glass*/
+	/*Sony Xperia P*/
+    #mobile-nav-toggle {
+        display: inline;
+		margin-top:11%
+    }
+	#mobile-nav-toggle i {
+		font-size: 25px;
+	}
+}
+@media screen and (max-resolution: 1dppx) {
+	/*Microsoft Surface*/
+	/*Amazon Kindle Fire*/
+	/*Samsung Galaxy Tab, Tab 2 (7"), Tab 2 (10"), Tab 3*/
+	/*Apple iPad Mini*/
+	/*Apple iPad 1 & 2*/
+	/*iPhone 3*/
+    #mobile-nav-toggle {
+        display: inline;
+		margin-top:11%
+    }
+	#mobile-nav-toggle i {
+		font-size: 25px;
+	}
+}
 }
