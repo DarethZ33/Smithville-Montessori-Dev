@@ -19,10 +19,8 @@
 <meta content="Smithville Montessori Academy Logo" name=twitter:image:alt>
 <script src="lib/jquery/jquery.min.js"></script>
 <script src="lib/jquery/jquery-ui.min.js"></script>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel=stylesheet>
-<link href="lib/css/style.css" rel=stylesheet>
-<link href="lib/font-awesome/css/font-awesome.min.css" rel=stylesheet>
-<link href="lib/animate-css/animate.min.css" rel=stylesheet>
+<link href="lib/bootstrap/bootstrap.min.css" rel=stylesheet>
+<link href="lib/css/resource-package.css" rel=stylesheet>
 <div id=preloader></div>
 <section id=welcome>
     <video autoplay loop muted id="vid">
@@ -35,19 +33,19 @@
             <h2>Teaching creative thinking for life-long learning.</h2>
             <div class="d-flex justify-content-center">
                     <a target=_blank href="https://www.facebook.com/SmithvilleMontessoriAcademy/">
-                        <i class="fa fa-facebook-square fa-4x" aria-hidden=true></i>
+                        <i class="fa fa-facebook-square" aria-hidden=true></i>
                     </a>
                     <a href="#">
-                        <i class="fa fa-twitter-square fa-4x" aria-hidden=true></i>
+                        <i class="fa fa-twitter-square" aria-hidden=true></i>
                     </a>
                     <a href="#">
-                        <i class="fa fa-instagram fa-4x" aria-hidden=true></i>
+                        <i class="fa fa-instagram" aria-hidden=true></i>
                     </a>
                     <a href="#">
-                        <i class="fa fa-pinterest-square fa-4x" aria-hidden=true></i>
+                        <i class="fa fa-pinterest-square" aria-hidden=true></i>
                     </a>
                     <a target=_blank href="https://www.yelp.com/biz/smithville-montessori-academy-ii-smithville">
-                        <i class="fa fa-yelp fa-4x" aria-hidden=true></i>
+                        <i class="fa fa-yelp" aria-hidden=true></i>
                     </a>
             </div>
             <div class=actions>
@@ -59,54 +57,62 @@
     </div>
 </section>
 <header id=header>
-    <div class=container>
-        <div class=pull-left id=logo>
-            <h4>
+<div class=container>
+	<div class=row>
+		<div class="col-sm-auto d-flex justify-content-center">
+			<div id=logo>
+				<h4>
                 <a href=#welcome>Smithville Montessori Academy</a>
                 </h4>
-        </div>
-        <nav id=nav-menu-container>
-            <ul class=nav-menu>
-                <li class=menu-active>
-                    <a href=#welcome>Home</a>
-                </li>
-                <li class=menu-has-children>
-                    <a href=#aboutus>About Us</a>
-                    <ul>
-                        <li>
-                            <a href="#" target=_blank>Careers</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href=#programs>Our Programs</a>
-                </li>
-                <li>
-                    <a href="#">Enrollment Information</a>
-                </li>
-                <li>
-                    <a href=#contact>Contact Us</a>
-                </li>
-            </ul>
-        </nav>
-    </div><br>
-    <div class=container id=social>
+			</div>
+		</div>
+		<div class="col-md-7 d-flex justify-content-center">
+			<nav id=nav-menu-container>
+				<ul class=nav-menu>
+					<li class=menu-active>
+						<a href=#welcome>Home</a>
+					</li>
+					<li class=menu-has-children>
+						<a href=#aboutus>About Us</a>
+						<ul>
+							<li>
+								<a href="#" target=_blank>Careers</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href=#programs>Our Programs</a>
+					</li>
+					<li>
+						<a href="#">Enrollment Information</a>
+					</li>
+					<li>
+						<a href=#contact>Contact Us</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class=row>
+	<div class="col-md-5 d-flex justify-content-center" id=social>
         <a target=_blank href="https://www.facebook.com/SmithvilleMontessoriAcademy/">
-            <i class="fa fa-facebook-square fa-2x" style=color:#FFF; aria-hidden=true></i>
+            <i class="fa fa-facebook-square" aria-hidden=true></i>
         </a>
         <a href="#">
-            <i class="fa fa-twitter-square fa-2x" style=color:#FFF; aria-hidden=true></i>
+            <i class="fa fa-twitter-square" aria-hidden=true></i>
         </a>
         <a href="#">
-            <i class="fa fa-instagram fa-2x" style=color:#FFF; aria-hidden=true></i>
+            <i class="fa fa-instagram" aria-hidden=true></i>
         </a>
         <a href="#">
-            <i class="fa fa-pinterest-square fa-2x" style=color:#FFF; aria-hidden=true></i>
+            <i class="fa fa-pinterest-square" aria-hidden=true></i>
         </a>
         <a target=_blank href="https://www.yelp.com/biz/smithville-montessori-academy-ii-smithville">
-            <i class="fa fa-yelp fa-2x" style=color:#FFF; aria-hidden=true></i>
+            <i class="fa fa-yelp" aria-hidden=true></i>
         </a>
     </div>
+	</div>
+</div>
 </header>
 <section id=aboutus>
     <div class="container fadeInUp wow">
@@ -142,8 +148,8 @@
         </div>
         <br>
         <div class=row>
-            <div class="col-md-6 order-md-0">
-                <div class="card text-white bg-info mb-3" id=card>
+            <div class="col-md-auto">
+                <div class="card text-white bg-info mb-3">
                     <div class=card-body>
                         <div class=card-header id=card-header>What is Montessori?</div>
                         <div class=card-title></div>
@@ -152,8 +158,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 order-md-1">
-                <div class="card text-white bg-info mb-3" id=card>
+            <div class="col-md-auto">
+                <div class="card text-white bg-info mb-3">
                     <div class=card-body>
                         <div class=card-header id=card-header>Benefits of Montessori Education</div>
                         <div class=card-title></div>
@@ -323,14 +329,14 @@
 									<h3>Click the corresponding button below to read about each portion of the class.</h3>
 								</div>
 								<div class="d-flex justify-content-center">
-									<button type=button class="btn btn-lg btn-danger" data-toggle=popover title="Sensory Education" data-content="It is important to allow children to develop their senses, which is why we focus a portion of this class to sensory. Dr. Montessori designed materials specifically for sensory to focus on visual discrimination and to help refine
+									<button type=button class="btn btn-lg btn-danger" data-toggle=popover data-trigger=focus title="Sensory Education" data-content="It is important to allow children to develop their senses, which is why we focus a portion of this class to sensory. Dr. Montessori designed materials specifically for sensory to focus on visual discrimination and to help refine
 									and develop the five senses.">Sensory Education</button>
-									<button type=button class="btn btn-lg btn-danger" data-toggle=popover title="Language" data-content="In this area you will find different exercises that expose the child to new vocabulary. The different aspects of language truly come to life without undue stress to the child. Peer interactions are encouraged as well as any other
+									<button type=button class="btn btn-lg btn-danger" data-toggle=popover data-trigger=focus title="Language" data-content="In this area you will find different exercises that expose the child to new vocabulary. The different aspects of language truly come to life without undue stress to the child. Peer interactions are encouraged as well as any other
 									opportunities for meaningful interactions.">Language</button>
 									</div>
 									<div class="d-flex justify-content-center">
-									<button type=button class="btn btn-lg btn-danger" data-toggle=popover title="Mathematics" data-content="Dr. Montessori believed in introducing children to the big picture before moving to the smaller portions. You will commonly see children introduced to the decimal system and working on 4 digit addition rather than single digit.">Mathematics</button>
-									<button type=button class="btn btn-lg btn-danger" data-toggle=popover title="Cultural" data-content="A young child's mind is an absorbent one. Dr. Montessori believes the absorbent mind allows children to take in all there is to offer. By introducing your child to these topics and subjects at a young age they are able to recall
+									<button type=button class="btn btn-lg btn-danger" data-toggle=popover data-trigger=focus title="Mathematics" data-content="Dr. Montessori believed in introducing children to the big picture before moving to the smaller portions. You will commonly see children introduced to the decimal system and working on 4 digit addition rather than single digit.">Mathematics</button>
+									<button type=button class="btn btn-lg btn-danger" data-toggle=popover data-trigger=focus title="Cultural" data-content="A young child's mind is an absorbent one. Dr. Montessori believes the absorbent mind allows children to take in all there is to offer. By introducing your child to these topics and subjects at a young age they are able to recall
 									it later on in their academic years.">Cultural</button>
 								</div>
 							</div>
@@ -384,7 +390,33 @@
                 <p class=section-description>
             </div>
         </div>
-    </div>
+		<div class=row>
+		<div class="col d-flex justify-content-center">
+			<div id="testimonial" class="carousel slide" data-interval="15000" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<blockquote class="blockquote bg-info rounded">
+						<p class="mb-0 font-weight-light text-white">We love the curriculum, the interaction with the teachers, and how much they care about our kids. We've had the opportunity to be a part of the Montessori process in the pre-primary, primary and kindergarten level and it's amazing to see their individual personal growth, how they become independent thinkers and grasp advance learning at such a young age.</p>
+						<footer class="blockquote-footer font-weight-bold text-white bg-secondary">Kristen P</footer>
+						</blockquote>
+					</div>
+					<div class="carousel-item">
+						<blockquote class="blockquote bg-info rounded">
+						<p class="mb-0 font-weight-light text-white">My youngest is always excited to go "see his friends" and loves all of the activities they have for the kiddos during the summer program. I would recommend SMA to anyone just starting out with little ones or if you have older children who just need before/after school care. Also, their summer program is fantastic for both fun and learning!!</p>
+						<footer class="blockquote-footer font-weight-bold text-white bg-secondary">Christine K</footer>
+						</blockquote>
+					</div>
+					<div class="carousel-item">
+						<blockquote class="blockquote bg-info rounded">
+						<p class="mb-0 font-weight-light text-white">My infant son and three-year old daughter have been enrolled at SMA for nearly five months. We truly feel at home here. They both enjoy the variety of activities the teachers have planned throughout the day. The staff members are very caring and concerned about the academic well-being and preparation of the children</p>
+						<footer class="blockquote-footer font-weight-bold text-white bg-secondary">Kristen M</footer>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
 </section>
 <footer id=footer>
     <div class=container>
@@ -392,13 +424,11 @@
             <div class=col-md-12>
                 <div class=copyright>
                     <p>Smithville Montessori Academy
-                        <br>sma@smithvillemoacademy.com
-                        <br>14451 N 169 Hwy
-                        <br>Smithville, Missouri, 64089</p>This work is licensed under a
-                    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons International License</a>.
-                    <br>
-                    <strong>Website designed and developed by
-                        <a href="https://www.linkedin.com/in/dalen-humiston-1b59809a/">Dalen H</a>
+                    <br>sma@smithvillemoacademy.com
+                    <br>14451 N 169 Hwy
+                    <br>Smithville, Missouri, 64089</p>
+					This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons International License</a>.<br>
+					<strong>Website designed and developed by <a href="https://www.linkedin.com/in/dalen-humiston-1b59809a/">Dalen H</a>
                     </strong>
                 </div>
             </div>
@@ -413,6 +443,5 @@ $(document).ready(function(){
     $('[data-toggle="popover"]').popover(); 
 });
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="lib/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="lib/resource-package.min.js"></script>
