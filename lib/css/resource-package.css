@@ -230,6 +230,9 @@ video#vid {
     max-height: 50px
 }
 
+#contacticons {
+	color:#000000!important;
+}
 #nav-menu-container {
     float: right;
 }
@@ -469,7 +472,7 @@ a:hover {
 }
 
 #aboutus .card {
-    width: 30rem;
+    width: 33rem;
     text-align: center
 }
 
@@ -483,7 +486,7 @@ a:hover {
 }
 
 #programs .card {
-    width: 22rem;
+    width: 17rem;
     text-align: center
 }
 
@@ -555,7 +558,7 @@ a:hover {
         font-size: 37px;
     }
 	#aboutus i {
-		color:#666;
+		color:#111;
 	}
 }
 
@@ -596,7 +599,7 @@ a:hover {
         display: none
     }
 	#aboutus i {
-		color:#666;
+		color:#111;
 	}
     #aboutus .card {
         width: 26rem;
@@ -629,7 +632,7 @@ a:hover {
         display: none
     }
 	#aboutus i {
-		color:#666;
+		color:#111;
 	}
 	#programs .card {
     width: 110%;
@@ -642,7 +645,7 @@ a:hover {
         font-size: 32px;
     }
 	#aboutus i {
-		color:#666;
+		color:#111;
 	}
 }
 
@@ -651,7 +654,7 @@ a:hover {
         font-size: 30px;
     }
 	#aboutus i {
-		color:#666;
+		color:#111;
 	}
 }
 @media(min-width:569px) and (max-width:768px) {
@@ -711,7 +714,7 @@ a:hover {
         display: none
     }
 	#aboutus i {
-		color:#666;
+		color:#111;
 	}
     #aboutus .card {
         width: 20rem;
@@ -781,7 +784,7 @@ a:hover {
         font-size: 24px;
         margin: 2px;
         line-height: 30px;
-		color:#666;
+		color:#111;
     }
     #aboutus .card {
         width: 90%;
@@ -798,7 +801,7 @@ a:hover {
 		font-size:25px;
 	}
 	#aboutus i {
-		color:#666;
+		color:#111;
 	}
 }
 @media (width:320px) {
@@ -806,7 +809,7 @@ a:hover {
 		font-size:20px;
 	}
 	#aboutus i {
-		color:#666;
+		color:#111;
 	}
 	#header h4 {
 		font-size:18px!important;
@@ -824,7 +827,7 @@ a:hover {
         font-size: 24px;
         margin: 5px;
         line-height: 25px;
-		color:#666;
+		color:#111;
     }
 }
 
@@ -892,7 +895,7 @@ a:hover {
     }
     #aboutus i {
         font-size: 25px;
-		color:#666;
+		color:#111;
 		padding-bottom:2%;
     }
     #aboutus .card {
