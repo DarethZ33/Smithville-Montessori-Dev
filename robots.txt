@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: 
+Disallow: /lib/jquery
+Disallow: /lib/css
+Disallow: /lib/bootstrap
+
+Sitemap: http://smithvillemoacademy.com/sitemap.xml

@@ -38,6 +38,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-title {
     text-transform: uppercase
 }
+#section-title-teachers {
+	font-size: 22px;
+}
 
 #header #logo h1,
 #welcome .actions a,
@@ -103,7 +106,7 @@ h6 {
     position: fixed;
     display: none;
     padding: 6px 12px 9px;
-    right: 15px;
+    right: 20px;
     bottom: 15px;
     transition: background .5s
 }
@@ -142,7 +145,10 @@ video#vid {
     height: auto;
     z-index: -100;
     margin: 0 auto;
-    filter: brightness(115%)
+	-webkit-filter: brightness(115%);
+	-moz-filter: brightness(115%);
+    -o-filter: brightness(115%);
+    -ms-filter: brightness(115%);
 }
 
 #welcome .welcome-logo {
@@ -211,7 +217,7 @@ video#vid {
 }
 
 #header #logo h4 {
-    font-size: 22px;
+    font-size: 21px;
     margin: 0;
     padding: 2px 0;
     line-height: 1;
@@ -446,6 +452,7 @@ a:hover {
 
 #aboutus i {
 	padding-right:5%!important;
+	text-decoration: underline;
 }
 #aboutus .about-content {
     background: #fff
@@ -558,7 +565,8 @@ a:hover {
         font-size: 37px;
     }
 	#aboutus i {
-		color:#111;
+		color:#666;
+		text-decoration: underline;
 	}
 }
 
@@ -585,7 +593,7 @@ a:hover {
         margin-right: 10%
     }
     #header #logo h4 {
-        font-size: 30px;
+        font-size: 21px;
         padding: 2px 0;
         line-height: 1;
         font-weight: 700;
@@ -599,7 +607,8 @@ a:hover {
         display: none
     }
 	#aboutus i {
-		color:#111;
+		color:#666;
+		text-decoration: underline;
 	}
     #aboutus .card {
         width: 26rem;
@@ -614,7 +623,7 @@ a:hover {
 
 @media(min-width:769px) and (max-width:991px) {
     #header #logo h4 {
-        font-size: 22px;
+        font-size: 21px;
         padding: 2px 0;
         line-height: 1;
         font-weight: 700;
@@ -632,7 +641,8 @@ a:hover {
         display: none
     }
 	#aboutus i {
-		color:#111;
+		color:#666;
+		text-decoration: underline;
 	}
 	#programs .card {
     width: 110%;
@@ -645,7 +655,8 @@ a:hover {
         font-size: 32px;
     }
 	#aboutus i {
-		color:#111;
+		color:#666;
+		text-decoration: underline;
 	}
 }
 
@@ -654,7 +665,8 @@ a:hover {
         font-size: 30px;
     }
 	#aboutus i {
-		color:#111;
+		color:#666;
+		text-decoration: underline;
 	}
 }
 @media(min-width:569px) and (max-width:768px) {
@@ -697,7 +709,7 @@ a:hover {
         height: 80px
     }
     #header #logo h4 {
-        font-size: 24px;
+        font-size: 21px;
         padding: 2px 0;
         line-height: 1;
         font-weight: 700;
@@ -714,7 +726,8 @@ a:hover {
         display: none
     }
 	#aboutus i {
-		color:#111;
+		color:#666;
+		text-decoration: underline;
 	}
     #aboutus .card {
         width: 20rem;
@@ -767,7 +780,7 @@ a:hover {
         max-height: 40px
     }
     #header #logo h4 {
-        font-size: 24px;
+        font-size: 21px;
         padding: 2px 0;
         line-height: 1;
         font-weight: 700;
@@ -784,7 +797,8 @@ a:hover {
         font-size: 24px;
         margin: 2px;
         line-height: 30px;
-		color:#111;
+		color:#666;
+		text-decoration: underline;
     }
     #aboutus .card {
         width: 90%;
@@ -801,7 +815,8 @@ a:hover {
 		font-size:25px;
 	}
 	#aboutus i {
-		color:#111;
+		color:#666;
+		text-decoration: underline;
 	}
 }
 @media (width:320px) {
@@ -809,7 +824,8 @@ a:hover {
 		font-size:20px;
 	}
 	#aboutus i {
-		color:#111;
+		color:#666;
+		text-decoration: underline;
 	}
 	#header h4 {
 		font-size:18px!important;
@@ -827,7 +843,8 @@ a:hover {
         font-size: 24px;
         margin: 5px;
         line-height: 25px;
-		color:#111;
+		color:#666;
+		text-decoration: underline;
     }
 }
 
@@ -895,8 +912,9 @@ a:hover {
     }
     #aboutus i {
         font-size: 25px;
-		color:#111;
+		color:#666;
 		padding-bottom:2%;
+		text-decoration: underline;
     }
     #aboutus .card {
         width: 90%;
@@ -4124,7 +4142,7 @@ a:hover {
 }
 
 .fa-2x {
-    font-size: 2em
+    font-size: 1.5em
 }
 
 .fa-3x {

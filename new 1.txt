@@ -1,0 +1,10 @@
+Corrected school name to Smithville Montessori Academy II
+Moved "What is Montessori" and "Benefits of Montessori" above teacher training and certification section
+Added section subtitle for "Teacher Training and Certification"
+Training/cert programs are now links and are underlined; will open in a new tab -- Corrected from College to Center
+Changed programs section title to "Check out our classrooms"
+Testimonial text changed from 1.5rem to 1.05em
+Microsoft Edge - blurb locks page- fixed
+Changed blurb titles to better present age ranges
+Pictures added to all age groups
+Made section title smaller to be consistent
